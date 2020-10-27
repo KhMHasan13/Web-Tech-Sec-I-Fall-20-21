@@ -60,22 +60,31 @@
 						<td align = "right">Birth Date:</td>
 						<td>
 							<select>
-								<option disabled selected>Date</option>
-								<option></option>
-								<option></option>
-								<option></option>						
+								<option disabled selected>Day</option>
+								<?php
+									for($i=1;$i<=31;$i++){
+										echo "<option>$i</option>";
+									}
+								?>
 							</select>
 							<select>
 								<option disabled selected>Month</option>
-								<option></option>
-								<option></option>
-								<option></option>						
+								<?php
+									$arr = array("January","February","March","April",
+												 "May","June","July","August",
+												 "September","October","November","December");
+									foreach($arr()){
+										echo "<option>$arr()</option>";
+									}
+								?>					
 							</select>
 							<select>
 								<option disabled selected>Year</option>
-								<option></option>
-								<option></option>
-								<option></option>						
+								<?php
+									for($i=1974;$i<=2010;$i++){
+										echo "<option>$i</option>";
+									}
+								?>					
 							</select>
 						</td>
 					</tr>
