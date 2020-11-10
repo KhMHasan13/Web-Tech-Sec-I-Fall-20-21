@@ -1,5 +1,6 @@
 <html>
 	<body>
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<form>
 			<table align = "center">
 				<tr>
@@ -80,7 +81,7 @@
 				<tr></tr>
 				<tr></tr>
 				<tr>
-					<td colspan = "2"><input type="submit" name = "OK" value="register"></td>
+					<td colspan = "2" align = "center"><input type="submit" name = "register" value="OK"></td>
 				</tr>
 			</table>
 		</form>
