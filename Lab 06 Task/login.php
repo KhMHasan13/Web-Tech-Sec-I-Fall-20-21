@@ -24,13 +24,6 @@
 					<td><input type = "text" style = "height:30px"></td>
 					<td><input type = "submit" value = "Login" style = "background-color:#85a16a;height:30px"></td>
 				</tr>
-				<tr></tr>
-				<tr></tr>
-				<tr></tr>
-				<tr></tr>
-				<tr>
-					<td><a href = "registration.php">Not registered yet?</a></td>
-				</tr>
 			</table>
 		</form>
 		
