@@ -1,0 +1,20 @@
+body
+{
+	background-image: url("bg01.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	margin: 30px;
+	padding-bottom: 100px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+h2
+{
+	background-image: url("img07.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	text-align: left;
+	margin-top:30px;
+}
